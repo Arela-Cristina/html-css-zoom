@@ -5,7 +5,9 @@ body {
 }
 
 .zoom-viewport {
-    width: 100%;
+    width: calc(100% - 70px);
     height: 100vh;
     background-color: black;
+    margin: 35px;
+    margin-top: 0;
 }
