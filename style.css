@@ -87,10 +87,6 @@ main {
     gap: 5px;
 }
 
-#microphone {
-    font-size: 12px;
-}
-
 /*footer*/
 footer .tools {
     background-color: #0f1414;
@@ -105,10 +101,6 @@ footer .tools {
 
 #bggreen {
     color: greenyellow;
-}
-
-#up {
-    font-size: 10px;
 }
 
 .footer-caption {
