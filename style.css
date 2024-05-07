@@ -46,10 +46,44 @@ main {
 footer .tools {
     background-color: #0f1414;
     height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding-left: 36px;
+    padding-right: 36px;
 }
 
-.tools__left-box {}
+.footer-caption {
+    font-size: 10px;
+    font-family: monospace;
+}
 
-.tools__middle-box {}
+.fa-solid {
+    font-size: 20px;
+}
 
-.tools__right-box {}
+.fa-brands {
+    font-size: 20px;
+}
+
+.left-box {
+    display: flex;
+    text-align: center;
+    gap: 20px;
+}
+
+.middle-box {
+    display: flex;
+    text-align: center;
+    gap: 20px;
+}
+
+.right-box {
+    font-family: monospace;
+    color: red;
+    background-color: gray;
+    padding: 26px 6px;
+    font-size: 10px;
+    font-weight: bold;
+}
