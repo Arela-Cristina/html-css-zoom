@@ -6,8 +6,29 @@ body {
 
 .zoom-viewport {
     width: calc(100% - 70px);
-    height: 100vh;
+    height: 48vw;
     background-color: black;
     margin: 35px;
     margin-top: 0;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+    margin-bottom: 0;
+}
+
+.zoom-user {
+    background-color: aquamarine;
+    width: 100%;
+    margin-top: 70px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.user {
+    background-color: yellow;
+    width: calc((100% / 5) - 76px);
+    height: 100px;
 }
