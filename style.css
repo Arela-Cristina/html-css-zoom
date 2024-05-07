@@ -9,6 +9,36 @@ main {
     background-color: #0f1414;
 }
 
+.viewport-box {
+    color: white;
+    font-family: monospace;
+    font-size: 10px;
+    position: absolute;
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 1166px;
+}
+
+.box__speaker-view {
+    font-size: 10px;
+    background-color: #858585f2;
+    padding: 4px 4px;
+    border-radius: 2px;
+}
+
+#speaker-view {
+    font-size: 10px;
+}
+
+#object {
+    font-size: 10px;
+    background-color: #858585f2;
+    padding: 4px 4px;
+    border-radius: 2px;
+}
+
 .zoom-viewport {
     width: calc(100% - 70px);
     height: 43vw;
