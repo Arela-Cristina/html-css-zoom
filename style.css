@@ -18,7 +18,7 @@ main {
     gap: 4px;
     align-items: center;
     margin-top: 5px;
-    margin-left: 1166px;
+    right: 0;
 }
 
 .box__speaker-view {
@@ -47,6 +47,7 @@ main {
     margin-top: 0;
     display: flex;
     margin-bottom: 0;
+    position: relative;
 }
 
 .zoom-user {
@@ -102,6 +103,14 @@ footer .tools {
     padding-right: 36px;
 }
 
+#bggreen {
+    color: greenyellow;
+}
+
+#up {
+    font-size: 10px;
+}
+
 .footer-caption {
     font-size: 10px;
     font-family: monospace;
@@ -119,12 +128,14 @@ footer .tools {
     display: flex;
     text-align: center;
     gap: 20px;
+    align-items: center;
 }
 
 .middle-box {
     display: flex;
     text-align: center;
     gap: 20px;
+    align-items: center;
 }
 
 .right-box {
